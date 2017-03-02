@@ -1,0 +1,138 @@
+
+
+    
+
+body{
+    background: url(deel.png);
+    background-repeat: repeat-x;
+    background-size: 120%;
+    margin: 0 auto;
+    height:100%;
+    
+}
+
+#Border1{
+    
+    height:100%;
+    width:30%;
+    border-radius: 1em 1em 1em 1em;
+    background-color: white;
+    margin: 0 auto;
+    margin-top: -1.5em;
+    
+}
+h1{
+    font-family: 'Coiny', cursive;
+    text-align: center;
+    font-size: 5em;
+    color:aqua;
+    margin-top: -1em;
+}
+h2{
+    color: aqua;
+    font-family: 'Rancho', cursive;
+    margin-left: 36em;
+    margin-top: -4em;
+    
+}
+h3{
+    color: aqua;
+    font-family: 'Shrikhand', cursive;
+    margin-top: 5em;
+    margin-left: 26em;
+        
+}
+h4{
+    padding-top: 1em;
+}
+#borderklein{
+    margin-left:36em;
+    height:4em;
+    width: 9em;
+    background-color: white;
+    border-radius: 1em 1em 0em 0em;
+    text-align: center;
+   
+    
+}
+#erom{
+    margin-left: 26em;
+    width: 35em;
+    text-align: center;
+    margin-top: 6em;
+    
+}
+
+.foto1{
+    
+    
+    margin-top: 2em;
+    margin-left: 0.8em;
+    
+}
+#tekst1{
+    margin-top: -11em;
+    margin-left:13em;
+    
+    
+}
+
+#tekst2{
+   
+    margin-right:13em;
+    
+}
+
+.foto2{
+    
+   
+    margin-left: 15em;
+    margin-top: 6em;
+    
+}
+
+
+  
+   nav ul li{
+       
+        float: left;
+       list-style-type:none;
+       margin-left:1em;
+    
+            }
+    ul li{
+    color: aqua;
+       
+            }
+
+#nav{
+    margin-left: 49em;
+    
+    
+
+}
+li{
+    font-size: 17px;
+}
+
+#para{
+    margin-left: 1em
+} 
+#inhoud{
+    
+    margin-left: 13em;
+    margin-top: -11.5em;
+
+}
+
+#artikel2{
+    margin-left: 1em;
+    
+}
+#omtekst{
+    
+    height:15em;
+    width: 28em;
+    margin-top: -11em;
+}
+    

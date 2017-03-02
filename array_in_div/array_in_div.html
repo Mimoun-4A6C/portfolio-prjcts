@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+      <head>
+          <style>
+            
+              #div1{
+                  border: solid 1px black;
+                  height: 250px;
+                  width: 100px;
+                  float: left;
+                  background-color: chartreuse;
+              } 
+        
+              #div2{
+                  border:solid 1px black;
+                  height: 250px;
+                  width:450px;
+                  background-color:aqua;
+                  text-align: center;
+                  
+                  
+              }
+              .klik{
+                  background-color:yellow;
+                  color:red;
+                  font-size: 20px;
+                  margin-top: 10%;
+                  border-radius: 50%;
+                 
+              }
+              #lettertype{
+                  font-size: 18px;
+              }
+          
+          </style>
+    </head>
+     <div id="div1" ><button class="klik" onclick="myFunction1()">+Naam</button>
+    <button class="klik" onclick="myFunction2()">Array1</button>
+    <button class="klik" onclick="myFunction3()">Array3</button>
+    <button class="klik" id="lettertype" onclick="myFunction4()">Met Index</button>
+    <button class="klik" onclick="myFunction5()">Nieuw</button>
+    <button class="klik" onclick="myFunction6()">Verwijder</button>
+    </div>
+    
+    <div id="div2"></div>
+    <body>
+        <script>
+    function myFunction1() {
+    
+    document.getElementById("div2").innerHTML +="Mimoun Chamlal"+"<br>"; 
+    }
+    var artikel=["Samsung Gear VR wit","VR Box VR02","Cardboard VR","Google Glass"];
+    function myFunction2(){
+    document.getElementById("div2").innerHTML =artikel; }
+    var artikel=["Samsung Gear VR wit","VR Box VR02","Cardboard VR","Google Glass"];
+    function myFunction3(){
+    document.getElementById("div2").innerHTML =""; 
+        for(i=0;i<5; i++){
+        document.getElementById("div2").innerHTML+=artikel[i]+"<br>";
+        }
+    }
+    function myFunction4(){
+        document.getElementById("div2").innerHTML =""; 
+        for(i=0;i<5; i++){
+        document.getElementById("div2").innerHTML+="Artikel "+i+": "+artikel[i]+"<br>";
+        }
+    }
+function myFunction5(){
+     artikel.push(prompt("Voeg een artikel toe"));
+}
+function myFunction6(){
+      artikel.splice(prompt("noem op te verwijderen artikel"),2);
+     
+}
+            
+        
+    
+        </script>
+                
+    </body>
+   
+</html>
+          

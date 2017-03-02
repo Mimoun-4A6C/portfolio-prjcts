@@ -1,0 +1,65 @@
+.balk {
+  	
+
+     background-color: #66c1dc;
+        display: inline-block;
+        width: 226px;
+        height: 226px;
+        margin-bottom: 20px;
+        padding: 34px;
+        box-shadow: 0 23px 39px -20px rgba(0,0,0,.43);
+        vertical-align: top;
+        transition:3s;
+    
+} 
+    
+
+                 
+    .balk:hover > .tekstbalk {
+        
+     box-shadow: 0 23px 50px -20px rgba(0,0,0,.43);
+	top: 200px;
+	visibility: visible;
+        
+        
+}
+         
+        
+        
+        
+    }
+    .balk2{
+        background-color: deepskyblue;
+          }
+    .balk3{
+        background-color: orangered;
+              }
+    .balk4{
+        background-color: yellow;
+          }
+    .balk5{
+        background-color: purple;
+          }
+.tekstbalk{
+ border: solid black 1px;
+    width: 129.5%;
+    height: 22%;
+    position: relative;
+    margin-left: -34px;
+    margin-top: -78px;
+    background-color: aquamarine;
+    transition:  opacity 2s; 
+    visibility: hidden;
+    transition: top 0.4s, visibility 0.4s;
+    top: 300px;
+    
+    
+    
+    
+    
+}
+.foto1{
+    height: 45%;
+    margin-left: 158px;
+    margin-top:-20px
+}

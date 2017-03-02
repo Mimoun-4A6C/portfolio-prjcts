@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="nl">
+    <head>
+        <title>Oefening les11-oefen1</title>
+        
+        <style>
+            body{
+                width: 80%;
+                Height: 40%;
+               
+            }
+            #div_eromheen {  
+                float:left;
+                width:10%;
+                border: solid 10px lightgrey;
+                height: 150px;
+                font-size:15px;
+                
+            } 
+            
+            #knopje{
+                clear:left;
+                width: 20px;
+                border-radius: 40%;
+                height: 20px;
+                position: relative;
+                border: solid;
+                background-color: orangered;
+            }
+
+            #knopje:hover{
+                background-color: aqua;
+            }
+            
+            #divplaatje{
+                width:100px;
+                Height: 100%; 
+                
+            }
+                
+      </style>
+        
+        
+    </head> 
+    <body>
+        <div id="div_eromheen"> 
+            <div id="knopje"
+             onclick="document.getElementById('divplaatje').style.display = 'none'">   
+                <!--Plaats hier 2 knopjes boven elkaar-->
+            </div>
+            <div id="knopje"
+             onclick="document.getElementById('divplaatje').style.display = 'block'">   
+            </div>
+        </div>
+        
+        <div id="div_eromheen">
+            <div id="divplaatje">
+                 <img width="100px" src="images/album-1.jpg" alt="Plaatje mist" border=10px solid black;> 
+            </div>
+  
+        </div>
+    </body>
+</html>
+
+
